@@ -27,17 +27,17 @@ body {
 }
 
 #form-elegir-mascota {
+    width: 450px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
+    margin: 0 0 20px;
 }
 
 .caja-mascota {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 0 20px;
 }
 
 .caja-mascota label {
