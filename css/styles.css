@@ -27,7 +27,7 @@ body {
 }
 
 #form-elegir-mascota {
-    width: 450px;
+    width: 750px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,12 +35,15 @@ body {
     margin: 0 0 20px;
 }
 
-.caja-mascota {
+/* .caja-mascota {
     display: flex;
     justify-content: space-evenly;
-}
+} */
 
 .caja-mascota label {
+    width: 225px;
+    height: 300px;
+    text-align: center;
     display: block;
     font-size: 18px;
     box-sizing: border-box;
@@ -49,7 +52,8 @@ body {
     border: #8f8673 2px;
     border-style: solid;
     border-radius: 5px;
-    user-select: none
+    user-select: none;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 
 .caja-mascota label:hover {
@@ -85,10 +89,49 @@ body {
     transform: scale(0.98);
 }
 
- 
+
 #select-ataque {
-    display: grid;
-    place-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#btn-fuego {
+    font-family: "Poppins", sans-serif;
+    background-color: #f4b82e;
+    border-color: #b08624;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  3px;
+}
+
+#btn-fuego:hover {
+    transform: scale(0.98);
+}
+
+#btn-agua {
+    font-family: "Poppins", sans-serif;
+    background-color: #2ebff4;
+    border-color: #228db4;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  3px;
+}
+
+#btn-agua:hover {
+    transform: scale(0.98);
+}
+
+#btn-tierra {
+    font-family: "Poppins", sans-serif;
+    background-color: #ab6423;
+    border-color: #69411b;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  3px;
+}
+
+#btn-tierra:hover {
+    transform: scale(0.98);
 }
 
 #mensajes {
@@ -99,4 +142,23 @@ body {
 #reiniciar {
     display: grid;
     place-items: center;
+
+}
+
+#btn-reiniciar {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 10px 0 10px;
+    background-color: #a3c05c;
+    border-color: #7f9547;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  5px;
+}
+
+#btn-reiniciar:hover {
+    transform: scale(0.98);
 }
