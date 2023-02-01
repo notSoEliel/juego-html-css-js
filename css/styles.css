@@ -53,7 +53,7 @@ body {
 }
 
 .caja-mascota label:hover {
-    border-width: 4px;
+    transform: scale(1.05);
 }
 
 .caja-mascota input {
@@ -81,7 +81,9 @@ body {
     border-width:  5px;
 }
 
-
+#select-mascota button:hover {
+    transform: scale(0.98);
+}
 
  
 #select-ataque {
