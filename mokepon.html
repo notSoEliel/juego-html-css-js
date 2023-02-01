@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MOKEPON</title>
+        <script src="./js/app.js"></script>
+        <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <section id="titulo">
+            <h1 class="titulo">MOKEPON! 🔥💧🌱</h1>
+        </section>
+
+        <section id="select-mascota">
+            <h2 id="h2-elegir-mascota">Escoge tu Bestia de Batalla</h2>
+
+            <div action="" id="form-elegir-mascota">
+                <div class="caja-mascota">
+                    <input type="radio" name="mascota" id="Hipopoge">
+                    <label for="Hipopoge">Hipopoge</label>
+                </div>
+
+                <div class="caja-mascota">
+                    <input type="radio" name="mascota" id="Capipepo">
+                    <label for="Capipepo">Capipepo</label>
+                </div>
+
+                <div class="caja-mascota">
+                    <input type="radio" name="mascota" id="Ratigüeya">
+                    <label for="Ratigüeya">Ratigüeya</label>
+                </div>
+
+                
+            </div>
+            <button id="btn-mascota">Seleccionar</button>
+        </section>
+
+        <section id="select-ataque">
+            <h2>Elige tu ataque</h2>
+            
+            <p>Tu <span id="mascota-jugador">mascota</span> tiene <span id="vidas-jugador">3</span> vidas</p>
+            <p>La <span id="mascota-enemigo">mascota</span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
+            
+            <p>
+                <button id="btn-fuego">Fuego 🔥</button>
+                <button id="btn-agua">Agua 💧</button>
+                <button id="btn-tierra">Tierra 🌱</button>
+            </p>            
+        </section>
+
+        <section id="mensajes">
+            
+        </section>
+
+        <section id="reiniciar">
+            <p>
+                <button id="btn-reiniciar">Reiniciar</button>
+            </p>
+        </section>
+
+
+    </body>
+</html>

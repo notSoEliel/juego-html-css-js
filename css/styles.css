@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+body {
+    background-color: #ccb993;
+    font-family: "Poppins", sans-serif;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo  {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    width: 400px;
+    height: 50px;
+}
+
+#select-mascota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#form-elegir-mascota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.caja-mascota {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 20px;
+}
+
+.caja-mascota label {
+    display: block;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #ead9b7;
+    border: #8f8673 2px;
+    border-style: solid;
+    border-radius: 5px;
+    user-select: none
+}
+
+.caja-mascota label:hover {
+    border-width: 4px;
+}
+
+.caja-mascota input {
+
+    display: none;
+}
+
+/* Le da el efecto al input cuando está :checked y al label que lo acompaña */
+.caja-mascota input:checked + label{ 
+    border-width: 4px;
+    border-color: #a38033;
+}
+
+#select-mascota button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin: 10px 0 10px;
+    background-color: #a3c05c;
+    border-color: #7f9547;
+    border-style: solid;
+    border-radius: 10px;
+    border-width:  5px;
+}
+
+
+
+ 
+#select-ataque {
+    display: grid;
+    place-items: center;
+}
+
+#mensajes {
+    display: grid;
+    place-items: center;
+}
+
+#reiniciar {
+    display: grid;
+    place-items: center;
+}
